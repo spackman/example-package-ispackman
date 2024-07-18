@@ -1,0 +1,16 @@
+# contents of pyproject.toml
+
+[project.optional-dependencies]
+test = ["pytest"]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "example-package-ispackman"
+version = "0.1.0"
+dependencies = [
+  "numpy"
+]
+
